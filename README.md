@@ -10,13 +10,11 @@ SynthAugmentX is a powerful toolkit designed for generating synthetic data using
 ## Installation
 1. Clone the repository: `git clone https://github.com/emankhadim/SynthAugmentX`, then navigate to the directory: `cd SynthAugmentX`.
 2. Install the required packages with `pip install -r requirements.txt`.
-3. Run the Streamlit app using `streamlit run app.py`.
 
 ## Usage
-1. **Select Data Source**: Choose between CIFAR-10 dataset or upload an image.
-2. **Choose Augmentation**: Select an augmentation technique from the dropdown menu.
-3. **Apply Augmentation**: Click the "Apply Augmentation" button to see the augmented image.
-4. **Apply All Augmentations**: Choose the "Apply All" option to apply all augmentations and display them side by side.
+1. **Run the training script**: This will generate synthetic data and create the `synthetic_data` folder. Use the command `python train.py`.
+2. **Run the testing script**: This will test the generated synthetic data. Use the command `python test.py`.
+3. **Run the Streamlit app**: This will launch the interactive interface to visualize the augmentations. Use the command `streamlit run app.py`.
 
 ## Augmentations
 - **Random Rotation**: Rotates the image by a random angle.
